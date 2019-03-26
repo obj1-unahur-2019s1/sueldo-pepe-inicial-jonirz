@@ -1,0 +1,9 @@
+print ('sueldo neto de pepe: ')
+netoCadete= int(input(20000))
+bonoResultado= int('monto fijo', 800)
+bonoPresentismo= int('ajuste', 100)
+faltas = 1
+
+def sueldoDePepe():
+    sueldo = netoCadete + bonoPresentismo + bonoResultado
+    print(sueldo)
